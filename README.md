@@ -1,26 +1,48 @@
-# Content-Based Recommendation System
+# Project Overview: Content-Based Recommendation System
 
-This Streamlit application demonstrates a content-based recommendation system that finds similar items based on text descriptions. It allows users to upload a dataset of items with descriptions, process the text using NLP techniques, and get recommendations for similar items.
+This Streamlit application showcases a content-based recommendation engine that suggests similar items based on their text descriptions. It enables users to upload datasets, apply NLP techniques, and receive tailored recommendations grounded in content similarity.
 
-## Project Objective
+# 🎯 Project Objective
 
-The goal of this project is to build a recommendation system that:
-- Processes text data using natural language processing techniques
-- Converts text descriptions into numerical features
-- Calculates similarity between items based on their descriptions
-- Recommends similar items based on content similarity
+The primary aim is to develop a system that:
 
-## Features
+Applies natural language processing (NLP) to textual item descriptions
 
-- **File Upload**: Support for CSV and Excel files containing items and their descriptions
-- **Text Processing**: Configurable text preprocessing options including:
-  - Stopword removal
-  - Stemming
-  - Feature selection parameters
-- **Vectorization Methods**: Support for TF-IDF and Count vectorization
-- **Interactive UI**: Select items and see top recommendations
-- **Visualization**: Bar charts showing similarity scores
-- **Feature Importance**: Display of top terms that influenced recommendations
+Converts text into meaningful numerical feature representations
+
+Measures similarity between items using these features
+
+Recommends similar items based on content overlap and relevance
+
+# 🔧 Key Features
+
+File Upload: Accepts CSV and Excel files containing items with descriptions
+
+Text Preprocessing: Customizable options including:
+
+Stopword removal
+
+Stemming
+
+Feature selection parameters
+
+Vectorization Techniques:
+
+Support for TF-IDF and Count Vectorization to transform text into feature vectors
+
+Interactive User Interface:
+
+Easily select any item to view its top similar items
+
+Visual output of similarity scores
+
+Visualization Tools:
+
+Bar charts to illustrate similarity rankings
+
+Display of key terms/features contributing to each recommendation
+
+
 
 ## Installation and Setup
 
